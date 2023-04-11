@@ -5,7 +5,7 @@
 * [NetSuite Integration Setup Guide](#NetSuite-Integration-Setup-Guide)
 * [Script Types](#Script-types)
 * [Whom to Approach](#Whom-to-Approach)
-* [About us](#🚀-About-us)
+* [About us](#About-us)
 
 # NetSuite Integration Setup Guide  
 Step 1: [Create a Integration Record.](#Create-a-Integration-Record.)  
@@ -380,4 +380,4 @@ define([], function() {
 |TECHNICAL|VAUGHAN|
 ---
 
-## 🚀 About us
+##🚀 ## About us
