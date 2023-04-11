@@ -376,8 +376,9 @@ define([], function() {
 ## Whom to Approach
 |MODE|CONTACT TO|
 |---|---|
-|SALES|AMIT|
-|TECHNICAL|VAUGHAN|
+|SALES|<a href="https://www.linkedin.com/in/amitd-rathod/"> AMIT</a>|
+|TECHNICAL|<a href="https://www.linkedin.com/in/vaughan-robey-9671272a/"> VAUGHAN</a>|
+
 ---
 
 ## 🚀 About us
