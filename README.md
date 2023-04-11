@@ -101,7 +101,7 @@ Items -> View
 * Under Setup, navigate to Integration > Web Services Preferences
 * Capture **Account ID** on the top left of the screen
 
-## client 
+## Client Script 
 ```
 /**
  *@NApiVersion 2.x
@@ -164,12 +164,213 @@ define([], function() {
 });
 
 ```
-## map/reduce  
-## mass update  
-## portlet 
-## RESTlet scheduled  
-## Suitelet  
-## user event  
-## workflow action  
-## bundle installation  
-## SDF installation
+## User Event Script
+```
+/**
+ *@NApiVersion 2.x
+ *@NScriptType UserEventScript
+ */
+define([], function() {
+
+    function beforeLoad(context) {
+        
+    }
+
+    function beforeSubmit(context) {
+        
+    }
+
+    function afterSubmit(context) {
+        
+    }
+
+    return {
+        beforeLoad: beforeLoad,
+        beforeSubmit: beforeSubmit,
+        afterSubmit: afterSubmit
+    }
+});
+
+```
+## Schedule Script
+
+```
+/**
+ *@NApiVersion 2.x
+ *@NScriptType ScheduledScript
+ */
+define([], function() {
+
+    function execute(context) {
+        
+    }
+
+    return {
+        execute: execute
+    }
+});
+
+```
+## Suitelet Script
+
+```
+/**
+ *@NApiVersion 2.x
+ *@NScriptType Suitelet
+ */
+define([], function() {
+
+    function onRequest(context) {
+        
+    }
+
+    return {
+        onRequest: onRequest
+    }
+});
+
+```
+## RESTlet Script
+```
+/**
+ *@NApiVersion 2.x
+ *@NScriptType Restlet
+ */
+define([], function() {
+
+    function _get(context) {
+        
+    }
+
+    function _post(context) {
+        
+    }
+
+    function _put(context) {
+        
+    }
+
+    function _delete(context) {
+        
+    }
+
+    return {
+        get: _get,
+        post: _post,
+        put: _put,
+        delete: _delete
+    }
+});
+
+```
+## PORTlet Script
+```
+/**
+ *@NApiVersion 2.x
+ *@NScriptType Portlet
+ */
+define([], function() {
+
+    function render(params) {
+        
+    }
+
+    return {
+        render: render
+    }
+});
+
+```
+## Map Reduce Script
+```
+/**
+ *@NApiVersion 2.x
+ *@NScriptType MapReduceScript
+ */
+define([], function() {
+
+    function getInputData() {
+        
+    }
+
+    function map(context) {
+        
+    }
+
+    function reduce(context) {
+        
+    }
+
+    function summarize(summary) {
+        
+    }
+
+    return {
+        getInputData: getInputData,
+        map: map,
+        reduce: reduce,
+        summarize: summarize
+    }
+});
+
+```
+## Mass Update Script
+```
+/**
+ *@NApiVersion 2.0
+ *@NScriptType MassUpdateScript
+ */
+define([], function() {
+
+    function each(params) {
+        
+    }
+
+    return {
+        each: each
+    }
+});
+
+```
+## Workflow Action Script
+```
+/**
+ *@NApiVersion 2.x
+ *@NScriptType WorkflowActionScript
+ */
+define([], function() {
+
+    function onAction(scriptContext) {
+        
+    }
+
+    return {
+        onAction: onAction
+    }
+});
+
+```
+## Bundle Install
+```
+/**
+ *@NApiVersion 2.0
+ *@NScriptType BundleInstallationScript
+ */
+define([], function() {
+
+    function checkPrerequisites() {
+        if (!runtime.isFeatureInEffect({ feature: 'TIMEOFFMANAGEMENT' }))
+            throw 'The TIMEOFFMANAGEMENT feature must be enabled. Please enable the feature and try again.';
+    }
+
+    return {
+        beforeInstall: function beforeInstall(params) {
+            checkPrerequisites();
+        },
+        beforeUpdate: function beforeUpdate(params) {
+            checkPrerequisites();
+        }
+    }
+});
+
+```
