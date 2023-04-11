@@ -21,17 +21,17 @@ Step 7: [Capture Account ID](#Capture-Account-ID)
 
 ## Script Types
 >  
-Here are the Script Types with templates of SuiteScripts
-[client](#client) 
-[map/reduce](#map/reduce)  
-[mass update](#mass-update)  
-[portlet](#portlet)  
-[RESTlet scheduled](#RESTlet-scheduled)  
-[Suitelet](#Suitelet)  
-[user event](#user-event)  
-[workflow action](#workflow action)  
-[bundle installation](#bundle-installation)  
-[SDF installation](#SDF-installation)
+Here are the Script Types with templates of SuiteScripts  
+[Client Script](#Client-Script)  
+[User Event Script](#User-Event-Script)  
+[Schedule Script](#Schedule-Script)  
+[Suitelet Script](#Suitelet-Script)  
+[RESTlet Script](#RESTlet-Script)  
+[PORTlet Script](#PORTlet-Script)  
+[Map Reduce Script](#Map-Reduce-Script)  
+[Mass Update Script](#Mass-Update-Script)  
+[Workflow Action Script](#Workflow-Action-Script)  
+[Bundle Install](#Bundle-Install)  
 
 
 # Create a Integration Record.
