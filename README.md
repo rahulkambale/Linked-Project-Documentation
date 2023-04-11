@@ -12,12 +12,12 @@
 # Step 1
 NetSuite Integration Setup Guide  
 Step 1: [Create a Integration Record.](#Create-a-Integration-Record.)  
-Step 2: Enable Token Based Authentication.  
-Step 3: Create a Token Role.  
-Step 4: Add Token Management Permissions.  
-Step 5: Enable View Permissions for Token Manager.  
-Step 6: Create Access Tokens.  
-Step 7: Capture Account ID.  
+Step 2: [Enable Token Based Authentication](#Enable-Token-Based-Authentication).  
+Step 3: [Create a Token Role](#Create-a-Token-Role)  
+Step 4: [Add Token Management Permissions](#Add-Token-Management-Permissions)  
+Step 5: [Enable View Permissions for Token Manager](#Enable-View-Permissions-for-Token-Manager)  
+Step 6: [Create Access Tokens](#Create-Access-Tokens)  
+Step 7: [Capture Account ID](#Capture-Account-ID)   
 
 
 ## Step 2
