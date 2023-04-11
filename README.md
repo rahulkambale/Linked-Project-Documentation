@@ -4,10 +4,8 @@
 # IndexV
 * [NetSuite Integration Setup Guide](#NetSuite-Integration-Setup-Guide)
 * [Script Types](#Script-types)
-* [Step 3](#step-3)
-* [Step 4](#step-4)
-* [Step 5](#step-5)
-* [Step 6](#step-6)
+* [Whom to Approach](#Whom-to-Approach)
+* [About us](#🚀-About-us)
 
 # NetSuite Integration Setup Guide  
 Step 1: [Create a Integration Record.](#Create-a-Integration-Record.)  
@@ -374,3 +372,12 @@ define([], function() {
 });
 
 ```
+
+## Whom to Approach
+|MODE|CONTACT TO|
+|---|---|
+|SALES|AMIT|
+|TECHNICAL|VAUGHAN|
+---
+
+## 🚀 About us
