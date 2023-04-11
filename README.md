@@ -11,7 +11,7 @@
 
 # Step 1
 NetSuite Integration Setup Guide  
-[Step 1: Create a Integration Record.](Create-a-Integration-Record.)  
+Step 1: [Create a Integration Record.](#Create-a-Integration-Record.)  
 Step 2: Enable Token Based Authentication.  
 Step 3: Create a Token Role.  
 Step 4: Add Token Management Permissions.  
