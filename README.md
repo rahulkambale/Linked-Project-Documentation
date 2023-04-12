@@ -5,7 +5,7 @@
 * [NetSuite Integration Setup Guide](#NetSuite-Integration-Setup-Guide)
 * [Script Types](#Script-types)
 * [Whom to Approach](#Whom-to-Approach)
-* [About us](#🚀-About-us)
+* [About us](#About-us)
 
 # NetSuite Integration Setup Guide  
 Step 1: [Create a Integration Record.](#Create-a-Integration-Record.)  
@@ -381,6 +381,6 @@ define([], function() {
 
 ---
 
-## 🚀 About us
+## About us
 <img src="https://linkederp.com/wp-content/uploads/2022/04/INKFISH-logo-social-with-tagline.png"  width="50" height="50">
 We are a NetSuite Partner and work in the reselling of technological solutions that put people first. Our ethos, embedded in our logo, is to interlink people and processes with technology, helping to realise superior solutions that deliver positive bottom line results.
